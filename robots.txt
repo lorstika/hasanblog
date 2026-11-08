@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lorstika.github.io/hasanblog/sitemap.xml
