@@ -1,4 +1,3 @@
-document.querySelectorAll('[data-print]').forEach(button=>button.addEventListener('click',()=>window.print()));
 const latitude=document.querySelector('#latitude');
 if(latitude){const update=()=>{const value=Number(latitude.value);document.querySelector('#latitude-value').textContent=value+'°';document.querySelector('#pole-axis').setAttribute('transform',`rotate(${90-value} 220 220)`);document.querySelector('#pole-label').textContent=`North celestial pole · altitude ${value}°`;};latitude.addEventListener('input',update);update();}
 if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){document.querySelectorAll('nav a').forEach(a=>{if(a.hash==='#'+entry.target.id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})}},{rootMargin:'-10% 0px -65% 0px'});document.querySelectorAll('main section[id]').forEach(s=>observer.observe(s));}
