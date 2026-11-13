@@ -69,6 +69,9 @@ h3{font-weight:500;line-height:1.35}
 .work p{font-size:var(--fs-small);line-height:1.55;color:var(--muted);margin:0;max-width:var(--measure)}
 .work-go{font-size:var(--fs-meta);color:var(--accent);white-space:nowrap;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em}
 .work:hover h3{color:var(--accent)}.work:hover .work-go{text-decoration-thickness:2px}
+.work .work-role{margin-top:9px;font-size:15px;color:var(--ink);line-height:1.55}
+.programme-context{font-size:15px;line-height:1.6;color:var(--muted);margin-top:18px;max-width:62ch}
+.programme-context p{margin:10px 0}
 
 /* Writing */
 .post{display:grid;grid-template-columns:var(--label-col) minmax(0,1fr);column-gap:var(--col-gap);align-items:baseline;padding:20px 0;text-decoration:none}
@@ -89,6 +92,8 @@ footer{margin-top:var(--section-space);border-top:1px solid var(--line);padding:
 .article h1{font-size:38px;font-weight:500;line-height:1.2;margin:22px 0}.article .lede{font-size:var(--fs-lede);line-height:1.55}
 .article h2{margin:35px 0 17px}.article p,.article li{font-size:var(--fs-body);line-height:1.7}
 .article-meta{font-size:var(--fs-meta);color:var(--muted);margin:22px 0 30px;line-height:1.55}
+.article-next{margin-top:28px}
+.article-end{border-top:1px solid var(--line);margin-top:45px;padding-top:20px}
 .article .section-label{font-size:var(--fs-meta);color:var(--muted);margin:25px 0 12px}
 .article aside{border-inline-start:2px solid var(--line);padding-inline-start:20px;color:var(--muted);font-size:var(--fs-small);margin:30px 0}
 .equation{font:23px/1.8 var(--serif);text-align:center;padding:20px 10px;margin:22px 0;overflow-x:auto;white-space:nowrap;direction:ltr}
