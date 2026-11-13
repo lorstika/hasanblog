@@ -8,4 +8,4 @@ English only; no GitHub profile/repository links. Projects: Phi, GAT, Himma, eac
 
 The grade-based timeline begins with Hasan's current 11th-grade astronomy and astrophysics elite camp and school-based NSMO physics teaching for grade-10 students. Future stages cover SRSI, KMC, IOAA preparation, grade-12 university applications, and undergraduate physics. Future goals do not imply admissions or results.
 
-Redesigned with Claude using impeccable. Desktop, tablet, and phone layouts reviewed; local links and keyboard latitude control checked. The save-profile button and Meran have been removed from all four pages.
+Redesigned with Claude using impeccable. Desktop, tablet, and phone layouts reviewed; local links and keyboard latitude control checked. The save-profile button and Meran have been removed from all five pages.
