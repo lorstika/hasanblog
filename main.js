@@ -1,4 +1,3 @@
-document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('[data-category]').forEach(post=>post.hidden=button.dataset.filter!=='all'&&post.dataset.category!==button.dataset.filter)}));
 document.querySelectorAll('[data-print]').forEach(button=>button.addEventListener('click',()=>window.print()));
 const latitude=document.querySelector('#latitude');
 if(latitude){const update=()=>{const value=Number(latitude.value);document.querySelector('#latitude-value').textContent=value+'°';document.querySelector('#pole-axis').setAttribute('transform',`rotate(${90-value} 220 220)`);document.querySelector('#pole-label').textContent=`North celestial pole · altitude ${value}°`;};latitude.addEventListener('input',update);update();}

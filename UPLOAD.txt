@@ -1,0 +1,12 @@
+HASAN ALSEBA — UPDATED BLOG
+
+1. Upload every file and folder in this package directly into the existing repository root. Replace the old versions.
+2. Keep writing/ and downloads/ as folders; do not flatten their contents.
+3. Delete the previous ar.html file from the repository to remove the old Arabic version.
+4. Commit the changes and allow GitHub Pages to rebuild.
+
+Open index.html locally to preview. The three article files at the root are redirects for previously published links. The actual articles live in writing/. The revised 7-page handout is bundled in downloads/.
+
+English only; no GitHub profile/repository links; only Phi, Meran, GAT, and Himma; contact hseba036@gmal.com as confirmed. University names and SRSI/KMC/IOAA appear as aspirations.
+
+Design reviewed with Claude's impeccable audit and polish workflows. Desktop and phone browser checks, static link checks, and keyboard slider checks completed. The repository connection denied write access, so this package has not been uploaded automatically.
